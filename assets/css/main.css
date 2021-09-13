@@ -136,7 +136,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #787878;
-		font-weight: 400;
+		font-weight: 600;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -2594,7 +2594,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("https://images.unsplash.com/photo-1548089450-0808d0d9880c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
+		background-image: url("images/overlay.png"), url("https://images.unsplash.com/photo-1553649084-3e42773ff0e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI4fHx3YWxscGFwZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
