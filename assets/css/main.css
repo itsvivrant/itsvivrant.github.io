@@ -2193,6 +2193,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		font-size: 30px;
 	}
 
 		ul.icons li {
@@ -2640,7 +2641,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 7.25em;
+			width: 10.25em;
 		}
 
 /* Footer */
