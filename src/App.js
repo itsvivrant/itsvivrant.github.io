@@ -1,7 +1,11 @@
+import Navigation from './components/Navigation'
+import AboutMe from './components/AboutMe';
+
 function App() {
   return (
     <>
-      <div>TESTING</div>
+      <Navigation />
+      <AboutMe />
     </>
   );
 }
