@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     justify-content: center;
+    align-items: center;
   }
 
   #contact-links {
@@ -25,7 +26,7 @@
   }
 
   #portrait-links {
-    margin-top: 40px;
+    margin-right: 20px;
   }
 
   #portrait-links hr {
@@ -38,38 +39,38 @@
   }
 
   .visible {
-    height: 3em;
+    height: 5em;
     width: 10em;
   }
 
   .fab, .fas, .far {
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin: 0 15px;
-    color: #97a2ad;
+    color: black;
+    /* box-shadow: 10px 10px 5px #aaaaaa; */
+
   }
 
   .fab:hover, .fas:hover, .far:hover {
     transition-duration: 0.3s;
-    color: black; 
+    color: #97a2ad;
   }
 
   #introduction {
-    margin: 23px 0 0 23px;
-    font-size: 19px;
+    /* margin: 23px 0 0 23px; */
+    /* width: 800px; */
+    font-size: 15px;
   }
 
   #bio {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    /* max-width: 100vw;
-    max-height: 355px; */
+    background: rgba(239, 239, 240, .5);
+    padding: 30px;
+    border-radius: 14px;
   }
 
   #bio p {
-    margin-top: 6px;
+    margin-top: 15px;
     margin-bottom: 0;
-    overflow: auto;
   }
 
   @media screen and (max-width: 1020px) and (min-width: 701px) {

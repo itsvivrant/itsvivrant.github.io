@@ -1,7 +1,7 @@
 nav {
     width: 100%;
     background-color: white;
-    color: #97a2ad;
+    color: black;
     font-weight: bold;
     font-size: 17px;
     height: 50px;
@@ -25,7 +25,7 @@ nav {
   }
 
   nav div:hover {
-    color: black; 
+    color: #97a2ad;
     transition-duration: 0.1s;
     border-bottom: 2px solid #a5b2be;
   }
