@@ -1,6 +1,7 @@
 import reflectMock from '../../images/reflectmock.png'
 import touristrMock from '../../images/touristrmock.png';
 import petMock from '../../images/petclinicmock.png';
+import Tools from '../Projects/tools';
 
 import './Projects.css';
 
@@ -16,9 +17,16 @@ function Projects() {
                         <p>A journaling app within the mental health space inspired by positive psychology research, the Science of Wellbeing,
                             by Laurie Santos. The
                         </p>
+
+                        <div className="tools">
+                            <p>Tools used:</p>
+                            <Tools
+                                tech={['Javscript', 'PostgresSQL', 'Node.js', 'ReactJS', 'Redux', 'CSS', 'Python', 'Flask', 'SQLAlchemy', 'Docker']}
+                            />
+                        </div>
                         <div>
-                            <a href="https://reflect-in.herokuapp.com/"><button className="bttn-slide slide_left" >Live</button></a>
-                            <a href="https://github.com/itsvivrant/Reflect"><button className="bttn-slide slide_left">Github</button></a>
+                            <a href="https://reflect-in.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left" >Live</button></a>
+                            <a href="https://github.com/itsvivrant/Reflect" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left">Github</button></a>
                         </div>
                     </div>
                 </div>
@@ -30,9 +38,15 @@ function Projects() {
                              across the app as well as upload their own photo, edit the photo. Users are able to comment
                              on photos and create their own albums.
                         </p>
+                        <div className="tools">
+                            <p>Tools used:</p>
+                            <Tools
+                                tech={['Javascript', 'HTML', 'CSS', 'React', 'Redux', 'AJAX', 'PostgresSQL', 'Express.js', 'Sequelize.js', 'CSURF Library', 'Express Validator Library', 'AWS']}
+                            />
+                        </div>
                         <div>
-                            <a href="https://touristr-lens.herokuapp.com/"><button className="bttn-slide slide_left" >Live</button></a>
-                            <a href="https://github.com/itsvivrant/Touristr"><button className="bttn-slide slide_left">Github</button></a>
+                            <a href="https://touristr-lens.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left" >Live</button></a>
+                            <a href="https://github.com/itsvivrant/Touristr" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left">Github</button></a>
                         </div>
                     </div>
                 </div>
@@ -44,9 +58,15 @@ function Projects() {
                             they're curious about. Answers are answered by verfied professionals only which makes PetClinic
                             an app you can trust.
                         </p>
+                        <div className='tools'>
+                            <p>Tools used:</p>
+                            <Tools
+                                tech={['Javascript', 'HTML', 'CSS', 'Pug', 'AJAZ', 'Express.js', 'Express Validation', 'JQuery', 'PostgresSQL', 'CSURF']}
+                            />
+                        </div>
                         <div>
-                            <a href="https://petclinic-overflow.herokuapp.com/"><button className="bttn-slide slide_left" >Live</button></a>
-                            <a href="https://github.com/hiepkhuu/PetClinic"><button className="bttn-slide slide_left">Github</button></a>
+                            <a href="https://petclinic-overflow.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left" >Live</button></a>
+                            <a href="https://github.com/hiepkhuu/PetClinic" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left">Github</button></a>
                         </div>
                     </div>
                 </div>
