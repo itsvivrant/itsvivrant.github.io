@@ -37,6 +37,19 @@
     font-size: 23px;
     color: black;
     font-weight: bold;
+    position: relative;
+}
+
+.overview .description .title::before{
+    content: "";
+    position: absolute;
+    left: 3%;
+    bottom: 1px;
+    width: 40px;
+    height: 5px;
+    transform: skew(-12deg) translateX(-50%);
+    background: rgba(151, 162, 173, .3);
+    z-index: -1;
 }
 
 .bttn-slide {
