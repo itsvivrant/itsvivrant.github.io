@@ -21,6 +21,8 @@ function AboutMe() {
            to coding was in middle school, spending hours on end making my very own tamagotchi pet
            through a program called Scratch. I distinctly remembered the accomplishment making something
            come to life and awe at the technologies that allowed me to do this.
+           {/* I enjoy the creativeness aspect and challenges that comes */}
+           {/* with building intuitive applications. */}
           </p>
           <p>
             Years later,
@@ -28,8 +30,7 @@ function AboutMe() {
            However this time, with my background in the healthcare and mental health space,
            I spend hours building apps that solve real world problems and improving mental health
            (checkout a project dear to my heart, Reflect).
-           I enjoy the creativeness aspect and challenges that comes with building intuitive applications.
-           I look forward to growing as a software developer by
+           As of currently, I look forward to growing as a software developer by
            continuing to learn useful programming languages and tools.
           </p>
           <p>

@@ -1,0 +1,9 @@
+#by-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #cdd9e5;
+    margin-bottom: 10px;
+    padding-top: 100px;
+}

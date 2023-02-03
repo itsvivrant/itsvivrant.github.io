@@ -44,7 +44,7 @@
   }
 
   .fab, .fas, .far {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     margin: 0 15px;
     color: black;
     /* box-shadow: 10px 10px 5px #aaaaaa; */
@@ -63,14 +63,17 @@
   }
 
   #bio {
-    background: rgba(239, 239, 240, .5);
+    background: rgba(151, 162, 173, .1);
     padding: 30px;
     border-radius: 14px;
+    height: auto;
+    width: auto;
   }
 
   #bio p {
     margin-top: 15px;
     margin-bottom: 0;
+    letter-spacing: 0.5px;
   }
 
   @media screen and (max-width: 1020px) and (min-width: 701px) {

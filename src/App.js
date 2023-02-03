@@ -2,6 +2,8 @@ import Navigation from './components/Navigation'
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Projects';
 import Skills from './components/Skills';
+import ContactMe from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
       <Navigation />
       <AboutMe />
       <Portfolio />
-      <Skills /> 
+      <Skills />
+      <ContactMe />
+      <Footer /> 
     </>
   );
 }
