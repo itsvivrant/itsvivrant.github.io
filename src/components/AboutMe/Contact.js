@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
       <div id='contact-links'>
-        <a href='"https://www.linkedin.com/in/vivian-ngoc-che/"' target='_blank' rel='noreferrer'>
+        <a href='https://www.linkedin.com/in/vivian-ngoc-che/' target='_blank' rel='noreferrer'>
 
             <i className='fab fa-linkedin'></i>
 
