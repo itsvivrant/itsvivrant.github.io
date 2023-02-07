@@ -15,8 +15,8 @@ function Projects() {
                     <div className='description'>
                         <h3 className='title'>Reflect</h3>
                         <p>A journaling app within the mental health space inspired by positive psychology research, the Science of Wellbeing,
-                            by Laurie Santos. The styling is inspired by Zoho Books. The user is able to create unlimited amount of journals as
-                            delete, edit, and update the entries within the journals. 
+                            by Laurie Santos. The styling is inspired by Zoho Books. The user is able perform CRUD functionalites on journals
+                            and entries through curated designed RESTFUL APIs.
                         </p>
 
                         <div className="tools">
