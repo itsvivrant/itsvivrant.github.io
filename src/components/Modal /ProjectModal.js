@@ -18,7 +18,7 @@ function ProjectModal() {
 
     return (
        <div>
-        <i class="fas fa-info-circle" onClick={viewProject}></i>
+        <i className="fas fa-info-circle" onClick={viewProject}></i>
         {showModal && (
             <Modal onClose={exitProject}>
                 <div>Testing</div>

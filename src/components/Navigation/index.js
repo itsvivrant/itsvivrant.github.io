@@ -10,11 +10,14 @@ function Navigation () {
     let skillsDiv;
     let contactMeDiv;
 
+
     useEffect(() => {
         aboutMeDiv = document.getElementById('about-me');
         portfolioDiv = document.getElementById('portfolio');
         skillsDiv = document.getElementById('skills');
         contactMeDiv = document.getElementById('contact-me');
+
+
     }, [])
 
     return (

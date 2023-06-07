@@ -1,5 +1,6 @@
 import React, { useContext, useRef, useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
+import {motion} from 'framer-motion';
 import './Modal.css';
 
 const ModalContext = React.createContext();
@@ -27,12 +28,51 @@ export function Modal({ onClose, children }) {
   if (!modalNode) return null;
 
   return ReactDOM.createPortal(
-    <div id="modal">
-      <div id="modal-background" onClick={onClose} />
-      <div id="modal-content">
-        {children}
-      </div>
-    </div>,
+      <>
+      <motion.div
+        initial = {{
+          opacity: 0
+        }}
+        animate = {{
+          opacity: 1,
+          transition: {
+            duration: 0.3
+          }
+        }}
+        id="modal"
+        onClick={onClose}>
+
+      </motion.div>
+      <motion.div
+        initial={{
+          scale: 0
+        }}
+        animate={{
+          scale: 1,
+          transition: {
+            duration: 0.3
+          }
+        }}
+        id="modal-background">
+        <motion.div
+          initial={{
+            x: 100
+          }}
+          animate={{
+            x: 0,
+            transition: {
+              delay: 0.3
+            }
+          }}
+          id="modal-content">
+          {children}
+        </motion.div>
+
+      </motion.div>
+
+
+    </>,
     modalNode
+
   );
 }

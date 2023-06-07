@@ -16,7 +16,7 @@ function AboutMe() {
         {/* <h1>About Me! &#128105;&#127995;&#8205;&#128187;</h1> */}
         <div id='bio'>
           <p>
-            <span class='hello-world'>Hello world,</span> I'm Vivian Che! Currently, I work as a Frontend Developer at Albertsons contracted through Nisum Technologies.
+            <span className='hello-world'>Hello world,</span> I'm Vivian Che! Currently, I work as a Frontend Developer at Albertsons contracted through Nisum Technologies.
            I have over one year of experience working on UI features in the Home and Nav team!  My earliest introduction
            to coding was in middle school, spending hours on end making my very own tamagotchi pet
            through a program called Scratch. I distinctly remembered the accomplishment making something
