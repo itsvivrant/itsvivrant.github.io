@@ -52,8 +52,8 @@
   }
 
   .fab:hover, .fas:hover, .far:hover {
-    transition-duration: 0.3s;
-    color: #97a2ad;
+    /* color: rgba(0, 0, 0, 0.5) */
+    color: #6E07F3;
   }
 
   #introduction {
@@ -63,17 +63,29 @@
   }
 
   #bio {
-    background: rgba(151, 162, 173, .1);
+    /* background: rgba(151, 162, 173, .1); */
+    /* background-color: #6E07F3; */
+    background-color: white;
     padding: 30px;
     border-radius: 14px;
     height: auto;
     width: auto;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
   }
 
   #bio p {
     margin-top: 15px;
     margin-bottom: 0;
     letter-spacing: 0.5px;
+    /* color: white; */
+    color: black;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .hello-world {
+    color: #6E07F3;
+    font-weight: 600; 
   }
 
   @media screen and (max-width: 1020px) and (min-width: 701px) {
