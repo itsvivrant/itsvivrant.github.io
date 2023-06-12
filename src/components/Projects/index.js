@@ -44,6 +44,14 @@ function Projects() {
                                 title="Reflect"
                                 githubURL="https://github.com/itsvivrant/Reflect"
                                 liveLink="https://reflect-in.herokuapp.com/"
+                                features={[
+                                    "User login and signup",
+                                    "View user journals and delete journals",
+                                    "Users can create a journal",
+                                    "Users can edit a journal",
+                                    "View journal entries and create entry",
+                                    "Users can edit and delete entry"
+                                ]}
                             />
                         </div>
                         <p className='summary'>A journaling app within the mental health space inspired by positive psychology research, the Science of Wellbeing,
@@ -73,6 +81,14 @@ function Projects() {
                                 title="Touristr"
                                 githubURL="https://github.com/itsvivrant/Touristr"
                                 liveLink="https://touristr-lens.herokuapp.com/"
+                                features={[
+                                    "User authentication is completed by hasing passwords using bcryptJS library",
+                                    "Implementation of CSURF protection to prevent csrf attacks",
+                                    "Users can view, upload, and edit photos",
+                                    "Users can add, delete comments, and update comments",
+                                    "Users can view their photos, albums, and favorites in their profile page",
+                                    "Photos can be uploaded locally using AWS"
+                                ]}
                             />
 
                         </div>
@@ -102,6 +118,12 @@ function Projects() {
                                 title="PetClinic"
                                 githubURL="https://github.com/hiepkhuu/PetClinic"
                                 liveLink="https://petclinic-overflow.herokuapp.com/"
+                                features={["Users are able to sign-in, sign-up and log-out of their accounts",
+                                            "Logged in users can upvote and downvote on questions",
+                                            "Only logged in users can post their answers to a question",
+                                            "Logged in users can delete and update their answers and questions"
+                                          ]}
+
                             />
                         </div>
                         <p className='summary'>With PetClinic, users and professionals can ask undying questions about their pets or animals

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Modal } from '../../context/Modal';
 import './ProjectModal.css'
 
-function ProjectModal({images, title, githubURL, liveLink}) {
+function ProjectModal({images, title, githubURL, liveLink, features}) {
     const [showModal, setShowModal] = useState(false);
 
     const viewProject = () => {
@@ -14,6 +14,14 @@ function ProjectModal({images, title, githubURL, liveLink}) {
         setShowModal(false);
         document.body.style.overflow = 'scroll';
     }
+
+    // const featuresConditonal = () => {
+    //     if (!features) {
+    //         return null
+    //     }
+    // }
+    console.log(features)
+
 
     return (
        <div>
@@ -38,9 +46,19 @@ function ProjectModal({images, title, githubURL, liveLink}) {
                     <div className='project-gallery'>
                         {images?.map(image => {
                             return (
-                            <div key={image} className='slideshow-images'>
-                                <img className='project-image' src={image} height='440' />
-                            </div>
+                                <div key={image} className='slideshow-images'>
+                                    <img className='project-image' src={image} height='440' />
+                                </div>
+                            )
+                        })}
+                    </div>
+                    <div className='overview-description'>
+                       <h4>User Features</h4>
+                        {features?.map(feature => {
+                            return (
+                                <div key={feature} className='feature-container'>
+                                    <li>{feature}</li>
+                                </div>
                             )
                         })}
                     </div>

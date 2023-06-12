@@ -22,14 +22,15 @@
 
 .github a, .live-link a {
     text-decoration: none;
-    border: 3px solid rgba(110,7,243);
+    border: 2px solid rgba(110,7,243);
     border-radius: 20px;
     height: 8px;
     padding: 10px;
+    font-size: 13px;
 }
 
 .github a:hover, .live-link a:hover {
-  border: 3px solid rgba(110,7,243, 0.5);
+  border: 2px solid rgba(110,7,243, 0.5);
 }
 
 .exit-modal-btn{
@@ -50,15 +51,35 @@
   position: relative;
   margin: auto;
   overflow-x: auto;
-  margin-top: 40px;
+  margin-top: 20px;
+  padding: 7px;
+  /* background-color: rgba(0, 0, 0, 0.7); */
 }
 
 .slideshow-images {
-  background-color: rgba(0, 0, 0);
-  /* border-radius: 20px; */
-  padding: 7px;
-  margin-right: 10px;
+  /* background-color: rgba(0, 0, 0); */
+  border-radius: 10px;
+  padding: 4px;
+  margin-right: 17px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
+}
 
+.overview-description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+}
+
+.overview-description p {
+  color: red;margin-top: 5px;
+  font-size: 16px;
+  word-break: normal;
+  white-space: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .slideshow-images img {
