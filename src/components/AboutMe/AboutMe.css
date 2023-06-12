@@ -85,68 +85,49 @@
 
   .hello-world {
     color: #6E07F3;
-    font-weight: 600; 
+    font-weight: 600;
   }
 
-  @media screen and (max-width: 1020px) and (min-width: 701px) {
-    #about-me {
-      display: flex;
-      flex-direction: column;
-    }
 
-    .fab, .fas, .far {
-      font-size: 3vw;
-    }
+
+@media screen and (max-width: 760px) {
+  #about-me {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    justify-content: center;
+    align-self: center;
   }
 
-  @media screen and (max-width: 793px) and (min-width: 504px) {
-    #about-me {
-      display: flex;
-      flex-direction: column;
-      margin: 0 90px;
-    }
-
-    #portrait {
-      align-self: flex-start;
-    }
-
-    .fab, .fas, .far {
-      font-size: 3.5vw;
-    }
-
-    #bio {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      max-height: 450px;
-      font-size: 16px;
-    }
+  #portrait-links {
+    align-self: center;
   }
 
-  @media screen and (max-width: 760px) {
-    #about-me {
-      display: flex;
-      flex-direction: column;
-      margin: 0 20px;
-    }
-
-    #portrait {
-      align-self: flex-start;
-    }
-
-    .fab, .fas, .far {
-      font-size: 5vw;
-    }
-
-    #bio {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-      height: auto;
-      font-size: 16px;
-    }
+  .fab, .fas, .far {
+    font-size: 6vw;
   }
 
-  br {
-    margin-bottom: 20px;
+  #bio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    font-size: 12px;
   }
+}
+
+@media (min-width: 761px) and (max-width: 1024px){
+  #about-me {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fab, .fas, .far {
+    font-size: 6vw;
+  }
+
+  #bio {
+    font-size: 16px;
+  }
+}

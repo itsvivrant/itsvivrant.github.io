@@ -38,8 +38,7 @@
 }
 
 .description .summary {
-    height: 100px;
-    margin-bottom: 20px;
+    height: 10em;
 }
 
 .description .title{
@@ -51,8 +50,9 @@
 
 .description .tools {
     width: 100%;
-    height: 200px;
+    height: auto;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 .description .links {
     display: flex;
@@ -140,5 +140,55 @@
 
     .overview img {
         margin: 0;
+    }
+}
+
+
+@media (max-width: 760px) {
+    #portfolio-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overview {
+        padding: 0;
+    }
+
+    .description .summary {
+        height: 100%;
+    }
+
+    .description .tools {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 1024px){
+    #portfolio-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overview {
+        padding: 0
+    }
+
+    .description .summary {
+        height: 100%;
+        font-size: 16px;
+    }
+
+    .description .tools {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .description .tools {
+        height: 340px;
     }
 }
