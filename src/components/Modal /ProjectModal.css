@@ -27,6 +27,7 @@
     height: 8px;
     padding: 10px;
     font-size: 13px;
+    color:rgba(110,7,243);
 }
 
 .github a:hover, .live-link a:hover {
