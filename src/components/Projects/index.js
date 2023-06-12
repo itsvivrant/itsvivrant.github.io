@@ -14,6 +14,19 @@ import reflectJournals from '../../images/Reflect/Reflect-journals.png';
 import reflectLogin from '../../images/Reflect/Reflect-login.png';
 import reflectSignUp from '../../images/Reflect/Reflect-signup.png';
 
+import touristrHome from '../../images/Touristr/touristr-home.png';
+import touristrProfile from '../../images/Touristr/touristr-profile.png';
+import touristrUpdate from '../../images/Touristr/touristr-updatephoto.png';
+import touristrUpload from '../../images/Touristr/touristr-upload.png';
+import touristrViewAll from '../../images/Touristr/touristr-viewall.png';
+import touristrViewPhoto from '../../images/Touristr/touristr-viewphoto.png'
+
+import petHome from '../../images/PetClinic/pet-home.png';
+import petAnswer from '../../images/PetClinic/pet-answer.png';
+import petAsk from '../../images/PetClinic/pet-ask.png'
+import petProfile from '../../images/PetClinic/pet-profile.png';
+import petData from '../../images/PetClinic/pet-data.png'
+
 import './Projects.css';
 
 function Projects() {
@@ -55,7 +68,12 @@ function Projects() {
                     <div className='description'>
                         <div className='project-header'>
                             <h3 className='title'>Touristr</h3>
-                            <ProjectModal />
+                            <ProjectModal
+                                images={[touristrHome, touristrViewAll, touristrViewPhoto, touristrUpdate, touristrUpload, touristrProfile]}
+                                title="Touristr"
+                                githubURL="https://github.com/itsvivrant/Touristr"
+                                liveLink="https://touristr-lens.herokuapp.com/"
+                            />
 
                         </div>
                         <p className='summary'>A location photo sharing app inspired by Flickr. With Touristr, users can view photos uploaded
@@ -79,7 +97,12 @@ function Projects() {
                     <div className='description'>
                         <div className='project-header'>
                             <h3 className='title'>PetClinic</h3>
-                            <ProjectModal />
+                            <ProjectModal
+                                images={[petHome, petAnswer, petAsk, petProfile, petData]}
+                                title="PetClinic"
+                                githubURL="https://github.com/hiepkhuu/PetClinic"
+                                liveLink="https://petclinic-overflow.herokuapp.com/"
+                            />
                         </div>
                         <p className='summary'>With PetClinic, users and professionals can ask undying questions about their pets or animals
                             they're curious about. Answers are answered by verfied professionals only which makes PetClinic
