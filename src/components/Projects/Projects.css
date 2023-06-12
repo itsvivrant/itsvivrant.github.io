@@ -187,8 +187,35 @@
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1201px) {
     .description .tools {
-        height: 340px;
+        height: 330px;
+        margin-top: 0;
+    }
+
+    .description .summary {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 1471px) {
+    .description .tools {
+        height: 240px;
+        margin: 0;
+    }
+
+    .description .summary {
+        height: 8em;
+    }
+}
+
+@media (min-width: 1202px) and (max-width: 1470px) {
+    .description .tools {
+        height: 330px;
+        margin: 0;
+    }
+
+    .description .summary {
+        height: 10em;
     }
 }
