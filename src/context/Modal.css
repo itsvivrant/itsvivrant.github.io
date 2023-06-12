@@ -47,15 +47,16 @@
 
 #modal-background {
   position: fixed;
-  width: 76%;
-  height: 76%;
+  width: 90%;
+  height: 90%;
   background: white;
   margin: auto;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 45px;
+  padding: 35px;
+  border-radius: 24px;
 }
   @media screen and (max-width: 1200px) {
     #modal-content {

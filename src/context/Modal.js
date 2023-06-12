@@ -56,12 +56,15 @@ export function Modal({ onClose, children }) {
         id="modal-background">
         <motion.div
           initial={{
-            x: 100
+            x: 100,
+            opacity: 0,
           }}
           animate={{
             x: 0,
+            opacity: 1,
             transition: {
-              delay: 0.3
+              delay: 0.3,
+              duration: 0.3,
             }
           }}
           id="modal-content">

@@ -4,6 +4,16 @@ import petMock from '../../images/petclinicmock.png';
 import Tools from '../Projects/tools';
 import ProjectModal from '../Modal /ProjectModal';
 
+import reflectCreate from '../../images/Reflect/Reflect-create.png';
+import reflectCreateEntry from '../../images/Reflect/Reflect-createentry.png';
+import reflectDeleteJournal from '../../images/Reflect/Reflect-deletejournal.png';
+import reflectEdit from '../../images/Reflect/Reflect-edit.png';
+import reflectEditDeleteEntry from '../../images/Reflect/Reflect-editdeleteentry.png';
+import reflectHome from '../../images/Reflect/reflect-home.png';
+import reflectJournals from '../../images/Reflect/Reflect-journals.png';
+import reflectLogin from '../../images/Reflect/Reflect-login.png';
+import reflectSignUp from '../../images/Reflect/Reflect-signup.png';
+
 import './Projects.css';
 
 function Projects() {
@@ -16,7 +26,12 @@ function Projects() {
                     <div className='description'>
                         <div className='project-header'>
                             <h3 className='title'>Reflect</h3>
-                            <ProjectModal />
+                            <ProjectModal
+                                images={[reflectHome,reflectLogin,reflectSignUp,reflectJournals,reflectCreate,reflectDeleteJournal,reflectEdit,reflectCreateEntry,reflectEditDeleteEntry ]}
+                                title="Reflect"
+                                githubURL="https://github.com/itsvivrant/Reflect"
+                                liveLink="https://reflect-in.herokuapp.com/"
+                            />
                         </div>
                         <p className='summary'>A journaling app within the mental health space inspired by positive psychology research, the Science of Wellbeing,
                             by Laurie Santos. The styling is inspired by Zoho Books. The user is able perform CRUD functionalites on journals

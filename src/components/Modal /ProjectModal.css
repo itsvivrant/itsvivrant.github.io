@@ -1,3 +1,42 @@
-.fas .fa-info-circle {
-    margin-right: 7px;
+.overview-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github ,
+.live-link,
+.exit-modal-btn {
+    all: unset;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.github a, .live-link a {
+    text-decoration: none;
+}
+
+.project-gallery {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  overflow-x: auto;
+  margin-top: 40px;
+}
+
+.slideshow-images {
+  background-color: rgba(110,7,243, 0.5);
+  border-radius: 18px;
+  padding: 9px;
+  margin-right: 10px;
+
+}
+
+.slideshow-images img {
+  border-radius: 18px;
+  height: 28em;
+  width:auto;
 }
