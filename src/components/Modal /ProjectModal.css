@@ -50,21 +50,23 @@
   flex-direction: row;
   max-width: 100%;
   position: relative;
-  margin: auto;
   overflow-x: auto;
+  overflow-y: hidden;
   margin-top: 20px;
   padding: 7px;
-  /* background-color: rgba(0, 0, 0, 0.7); */
 }
 
 .slideshow-images {
-  /* background-color: rgba(0, 0, 0); */
   border-radius: 10px;
   padding: 4px;
   margin-right: 17px;
   margin-top: 10px;
   margin-bottom: 10px;
   box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
+}
+
+.project-image {
+
 }
 
 .overview-description {
@@ -90,3 +92,28 @@
 }
 
 
+@media (max-width: 760px) {
+
+}
+
+@media (min-width: 761px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px) and (max-width: 1201px) {
+
+}
+
+@media (min-width: 1202px) and (max-width: 1470px) {
+
+  .slideshow-images {
+
+  }
+  .project-gallery {
+
+  }
+}
+
+@media (min-width: 1471px) {
+
+}
