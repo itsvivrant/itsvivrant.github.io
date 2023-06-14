@@ -25,6 +25,8 @@
 
 @media (max-width: 760px) {
   #modal-background {
-    border-radius: 0px; 
+    height: 70%;
   }
+
+
 }

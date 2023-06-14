@@ -52,6 +52,10 @@ function Projects() {
                                     "View journal entries and create entry",
                                     "Users can edit and delete entry"
                                 ]}
+                                futureGoals={[
+                                    "Search functionality for users to search keywords as well as dates",
+                                    "Bookmark functionality for users to save entries"
+                                ]}
                             />
                         </div>
                         <p className='summary'>A journaling app within the mental health space inspired by positive psychology research, the Science of Wellbeing,
@@ -89,6 +93,11 @@ function Projects() {
                                     "Users can view their photos, albums, and favorites in their profile page",
                                     "Photos can be uploaded locally using AWS"
                                 ]}
+                                futureGoals={[
+                                    "Ultilize Google API so users can map the geolocation of their photos",
+                                    "Implement favorites",
+                                    "Add tags"
+                                ]}
                             />
 
                         </div>
@@ -123,6 +132,12 @@ function Projects() {
                                             "Only logged in users can post their answers to a question",
                                             "Logged in users can delete and update their answers and questions"
                                           ]}
+                                futureGoals={[
+                                    "Edit/delete answers",
+                                    "Edit/delete questions",
+                                    "Splash page",
+                                    "Search functionality"
+                                ]}
 
                             />
                         </div>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Modal } from '../../context/Modal';
 import './ProjectModal.css'
 
-function ProjectModal({images, title, githubURL, liveLink, features}) {
+function ProjectModal({images, title, githubURL, liveLink, features, futureGoals}) {
     const [showModal, setShowModal] = useState(false);
 
     const viewProject = () => {
@@ -53,14 +53,26 @@ function ProjectModal({images, title, githubURL, liveLink, features}) {
                         })}
                     </div>
                     <div className='overview-description'>
-                       <h4>User Features</h4>
-                        {features?.map(feature => {
-                            return (
-                                <div key={feature} className='feature-container'>
-                                    <li>{feature}</li>
-                                </div>
-                            )
-                        })}
+                        <div className='description-column'>
+                            <h4>User Features</h4>
+                            {features?.map(feature => {
+                                return (
+                                    <div key={feature} className='overviewdescription-container'>
+                                        <li>{feature}</li>
+                                    </div>
+                                )
+                            })}
+                        </div>
+                        <div className='description-column'>
+                            <h4>Future Goals</h4>
+                            {futureGoals?.map(goal => {
+                                return (
+                                    <div key={goal} className='overviewdescription-container'>
+                                        <li>{goal}</li>
+                                    </div>
+                                )
+                            })}
+                        </div>
                     </div>
                 </div>
 

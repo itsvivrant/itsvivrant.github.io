@@ -93,6 +93,15 @@
   padding: 0;
 }
 
+.overviewdescription-container li {
+  list-style: none;
+}
+
+.overviewdescription-container li::before {
+  content: "• ";
+  color: rgba(110,7,243)
+}
+
 
 
 @media (max-width: 760px) {
@@ -101,8 +110,8 @@
   }
 
   .slideshow-images {
-    width: 20em;
-    height: 10em;
+    width: 23em;
+    height: 14em;
   }
 
   .overview-links {
@@ -117,7 +126,7 @@
   .github a, .live-link a {
     font-size: 6px;
     border-radius: 50px;
-    padding: 6px;
+    padding: 10px;
     border: 1px solid rgba(110,7,243);
   }
 
@@ -125,23 +134,58 @@
     padding: 0;
     margin: 0 0 0 0;
     position: relative;
-    top: 2px;
+    top: 4px;
   }
 
   .overview-description h4{
     font-size: 17px;
   }
 
-  .feature-container {
+  .overviewdescription-container{
     font-size: 12px;
   }
+
 }
 
 @media (min-width: 761px) and (max-width: 1024px) {
+  .slideshow-images {
+    width: 30em;
+    height: 18em;
+  }
 
+
+  .overview-title h2 {
+    font-size: 30px;
+  }
+
+  .overview-description h4{
+    font-size: 25px;
+  }
+
+  .overviewdescription-container{
+    font-size: 17px;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1201px) {
+  .slideshow-images {
+    width: 36em;
+    height: 18em;
+  }
+
+  .overview-title h2 {
+    font-size: 30px;
+  }
+
+  .overview-description h4{
+    font-size: 25px;
+  }
+
+  .overviewdescription-container{
+    font-size: 18px;
+  }
+
+
 
 }
 
@@ -152,15 +196,80 @@
     height: 20em;
   }
 
-  .overview-description h4{
-    font-size: 20px;
+  .overview-title h2 {
+    font-size: 40px;
   }
 
-  .feature-container {
-    font-size: 15px;
+  .overview-description h4{
+    font-size: 25px;
   }
+
+  .overview-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3em;
+  }
+
+  .description-column {
+    flex: 1;
+  }
+
+  .overviewdescription-container{
+    font-size: 18px;
+  }
+
+
 }
 
 @media (min-width: 1471px) {
 
+  .github ,
+  .live-link {
+    margin: 0 10px 0 0;
+  }
+
+  .github a, .live-link a {
+    font-size: 12px;
+    border-radius: 50px;
+    padding: 20px;
+    border: 2px solid rgba(110,7,243);
+  }
+
+  .exit-modal-btn {
+    padding: 0;
+    margin: 0 0 0 0;
+    position: relative;
+    top: 4px;
+    margin-left: 10px;
+  }
+
+
+  .slideshow-images {
+    width: 42em;
+    height: 25em;
+  }
+
+  .overview-title h2 {
+    font-size: 40px;
+  }
+
+  .overview-description h4{
+    font-size: 30px;
+  }
+
+  .overviewdescription-container{
+    font-size: 20px;
+  }
+
+  .overview-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3em;
+  }
+
+  .description-column {
+    flex: 1;
+  }
 }
