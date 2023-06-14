@@ -20,13 +20,17 @@
   left: 0;
   right: 0;
   border-radius: 24px;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 @media (max-width: 760px) {
   #modal-background {
     height: 90%;
   }
+}
 
-
+@media (min-width: 1400px) {
+  #modal-background {
+    height: 100%;
+  }
 }

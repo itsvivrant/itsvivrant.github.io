@@ -58,7 +58,7 @@ function ProjectModal({images, title, githubURL, liveLink, features, futureGoals
                             })}
                         </div>
                         <div className='description-column'>
-                            {futureGoals ? null : <h4>Future Goals</h4>}
+                            {futureGoals ? <h4>Future Goals</h4> : null}
                             {futureGoals?.map(goal => {
                                 return (
                                     <div key={goal} className='overviewdescription-container'>

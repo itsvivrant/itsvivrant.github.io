@@ -68,9 +68,9 @@ function Projects() {
                                 ]}
                             />
                         </div>
-                        <p className='summary'>A journaling app within the mental health space inspired by positive psychology research, the Science of Wellbeing,
-                            by Laurie Santos. The styling is inspired by Zoho Books. The user is able perform CRUD functionalites on journals
-                            and entries through carefully designed RESTFUL APIs.
+                        <p className='summary'>A journaling fullstack application created through a personal experience with positive psychology research, the Science of Wellbeing,
+                            by Laurie Santos, and styling inspired by Zoho Books. Journaling has been scientifically proven to decrease stress by the method of reflection.
+                            Feeling down lately? Join Reflect, start your journaling process, and improve your quality of life today!
                         </p>
 
                         <div className="tools">
@@ -111,9 +111,9 @@ function Projects() {
                             />
 
                         </div>
-                        <p className='summary'>A location photo sharing app inspired by Flickr. With Touristr, users can view photos uploaded
-                             across the app as well as upload their own photo, edit the photo. Users are able to comment
-                             on photos and create their own albums.
+                        <p className='summary'>A location photo sharing application inspired by Flickr. Touristr is a community of travelers
+                        who document and share their
+                        incredible travels with each other through images! Live vicariously through others with Touristr.
                         </p>
                         <div className="tools">
                             <p>Tools used:</p>
@@ -152,7 +152,7 @@ function Projects() {
                             />
                         </div>
                         <p className='summary'>With PetClinic, users and professionals can ask undying questions about their pets or animals
-                            they're curious about. Answers are answered by verfied professionals only which makes PetClinic
+                            they're curious about. Answers are answered by verfied professionals which makes PetClinic
                             an app you can trust.
                         </p>
                         <div className='tools'>
@@ -206,8 +206,8 @@ function Projects() {
                             />
                         </div>
                         <div className='links'>
-                            <a href="https://github.com/Simonvargas/SneaX" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left" >Live</button></a>
-                            <a href="https://sneaxs.herokuapp.com" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left">Github</button></a>
+                            <a href="https://sneaxs.herokuapp.com" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left" >Live</button></a>
+                            <a href="https://github.com/Simonvargas/SneaX" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left">Github</button></a>
                         </div>
                     </div>
                 </div>

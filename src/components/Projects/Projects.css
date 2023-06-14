@@ -196,22 +196,22 @@
 
 @media (min-width: 1202px) and (max-width: 1470px) {
     .description .tools {
-        height: 250px;
+        height: 300px;
         margin: 0;
     }
 
     .description .summary {
-        height: 10em;
+        height: 18em;
     }
 }
 
 @media (min-width: 1471px) {
     .description .tools {
-        height: 270px;
+        height: 300px;
         margin: 0;
     }
 
     .description .summary {
-        height: 8em;
+        height: 12em;
     }
 }
