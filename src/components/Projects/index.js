@@ -1,6 +1,7 @@
 import reflectMock from '../../images/reflectmock.png'
 import touristrMock from '../../images/touristrmock.png';
 import petMock from '../../images/petclinicmock.png';
+import sneaxMock from '../../images/sneakxmock.png'
 import Tools from '../Projects/tools';
 import ProjectModal from '../Modal /ProjectModal';
 
@@ -26,6 +27,15 @@ import petAnswer from '../../images/PetClinic/pet-answer.png';
 import petAsk from '../../images/PetClinic/pet-ask.png'
 import petProfile from '../../images/PetClinic/pet-profile.png';
 import petData from '../../images/PetClinic/pet-data.png'
+
+import snHome from '../../images/Sneax/sn-home.png';
+import snLogin from '../../images/Sneax/sn-login.png';
+import snSignUp from '../../images/Sneax/sn-signup.png';
+import snView from '../../images/Sneax/sn-view.png';
+import snWatch from '../../images/Sneax/sn-watch.png';
+import snSearch from '../../images/Sneax/sn-search.png';
+import snIndividual from '../../images/Sneax/sn-individual.png';
+
 
 import './Projects.css';
 
@@ -157,6 +167,51 @@ function Projects() {
                         </div>
                     </div>
                 </div>
+                <div className='overview'>
+                    <img src={sneaxMock} alt='mockup of Sneax'/>
+                    <div className='description'>
+                        <div className='project-header'>
+                            <h3 className='title'>Sneax</h3>
+                            <ProjectModal
+                                images={[snHome, snLogin, snSignUp, snView, snWatch, snSearch, snIndividual]}
+                                title="Sneax"
+                                githubURL="https://github.com/Simonvargas/SneaX"
+                                liveLink="https://sneaxs.herokuapp.com/"
+                                features={["New account creation, log in, log out, and guest/demo login",
+                                            "All users can browse through listed shoes brand",
+                                            "Pre-filled information of sneakers and their stock price in the database",
+                                            "Users can browse through categories of brands to search for a shoe",
+                                            "Users can search for a shoe by either name or brand through the search-bar",
+                                            "Users can choose to add a specific stock to their watchlist",
+                                            "Users can remove a specified stock from their watchlist",
+                                            "Users can purchase stocks for their specified sneaker",
+                                            "Users can choose to update their stock percentage by purchasing more stock",
+                                            "If stock is purchased, the user profile page will display the purchased stock in their assets list",
+                                            "Logged in users can delete their stock"
+                                          ]}
+                                futureGoals={[
+
+                                ]}
+
+                            />
+                        </div>
+                        <p className='summary'>SneaX is a financial application that allows user to invest
+                        in SneaX, which are sneakers. The user can purchase SneaXs and add them to their watchlist.
+                        This full stack application is inspired by Robinhood.
+                        </p>
+                        <div className='tools'>
+                            <p>Tools used:</p>
+                            <Tools
+                                tech={['Javascript', 'HTML', 'CSS3', 'React', 'Redux', 'Python', 'Flask', 'WTForms', 'SQLAlchemy', 'PostgresSQL']}
+                            />
+                        </div>
+                        <div className='links'>
+                            <a href="https://github.com/Simonvargas/SneaX" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left" >Live</button></a>
+                            <a href="https://sneaxs.herokuapp.com" target="_blank" rel="noopener noreferrer"><button className="bttn-slide slide_left">Github</button></a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>

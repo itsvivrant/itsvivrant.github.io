@@ -1,5 +1,5 @@
 .project-container {
-  padding: 35px;
+  padding: 45px;
 }
 
 .overview-header {
@@ -52,7 +52,7 @@
 .project-gallery {
   overflow-x: auto;
   overflow-y: hidden;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 4px;
   max-width: 100%;
   display: inline-block;
@@ -230,10 +230,10 @@
   }
 
   .github a, .live-link a {
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 50px;
     padding: 20px;
-    border: 2px solid rgba(110,7,243);
+    border: 3px solid rgba(110,7,243);
   }
 
   .exit-modal-btn {
@@ -242,12 +242,13 @@
     position: relative;
     top: 4px;
     margin-left: 10px;
+    font-size: 30px;
   }
 
 
   .slideshow-images {
-    width: 42em;
-    height: 25em;
+    width: 46em;
+    height: 29em;
   }
 
   .overview-title h2 {

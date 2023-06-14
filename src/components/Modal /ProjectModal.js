@@ -15,12 +15,6 @@ function ProjectModal({images, title, githubURL, liveLink, features, futureGoals
         document.body.style.overflow = 'scroll';
     }
 
-    // const featuresConditonal = () => {
-    //     if (!features) {
-    //         return null
-    //     }
-    // }
-    console.log(features)
 
 
     return (
@@ -47,7 +41,7 @@ function ProjectModal({images, title, githubURL, liveLink, features, futureGoals
                         {images?.map(image => {
                             return (
                                 <div key={image} className='slideshow-images'>
-                                    <img className='project-image' src={image} height='440' />
+                                    <img className='project-image'  src={image} height='440' />
                                 </div>
                             )
                         })}
@@ -64,7 +58,7 @@ function ProjectModal({images, title, githubURL, liveLink, features, futureGoals
                             })}
                         </div>
                         <div className='description-column'>
-                            <h4>Future Goals</h4>
+                            {futureGoals ? null : <h4>Future Goals</h4>}
                             {futureGoals?.map(goal => {
                                 return (
                                     <div key={goal} className='overviewdescription-container'>
