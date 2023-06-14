@@ -1,37 +1,45 @@
 {
   "files": {
-    "main.css": "/static/css/main.56426e17.css",
-    "main.js": "/static/js/main.807fefab.js",
+    "main.css": "/static/css/main.1494f765.css",
+    "main.js": "/static/js/main.d8d5beb9.js",
     "static/media/touristr-viewall.png": "/static/media/touristr-viewall.684b7f4757ca7bcdc46e.png",
     "static/media/touristr-profile.png": "/static/media/touristr-profile.7e76960ea3c0c5049973.png",
     "static/media/touristr-viewphoto.png": "/static/media/touristr-viewphoto.fafb9353659d87b40f89.png",
     "static/media/touristr-home.png": "/static/media/touristr-home.c6ec248d3dce26b815a1.png",
+    "static/media/sn-login.png": "/static/media/sn-login.270a96b9368a5ac284ce.png",
     "static/media/Reflect-signup.png": "/static/media/Reflect-signup.0258bfb0bdc1e52a2b76.png",
     "static/media/Reflect-edit.png": "/static/media/Reflect-edit.13e690ceca044293c5fe.png",
     "static/media/touristr-updatephoto.png": "/static/media/touristr-updatephoto.b85c63da1963e9d8e4b6.png",
     "static/media/Reflect-create.png": "/static/media/Reflect-create.8039bc064264c3b620de.png",
     "static/media/Reflect-journals.png": "/static/media/Reflect-journals.3393d7b762b27cd84584.png",
     "static/media/touristr-upload.png": "/static/media/touristr-upload.5651e2b09c650b41d89d.png",
+    "static/media/sn-home.png": "/static/media/sn-home.b53e3b1c38df9541488d.png",
     "static/media/Reflect-deletejournal.png": "/static/media/Reflect-deletejournal.5060d08f082850f7fd4d.png",
     "static/media/pet-answer.png": "/static/media/pet-answer.bf4d9f9bc43493834817.png",
     "static/media/profilePic.jpg": "/static/media/profilePic.10d3ee1b5c3ba918e06c.jpg",
     "static/media/pet-profile.png": "/static/media/pet-profile.035e08d4ae592c80c195.png",
     "static/media/pet-home.png": "/static/media/pet-home.9f7a3ccb70bc450c0a5b.png",
+    "static/media/sn-individual.png": "/static/media/sn-individual.c2abf173a18d68be01e0.png",
     "static/media/Reflect-login.png": "/static/media/Reflect-login.7927cdaca39072063547.png",
+    "static/media/sn-signup.png": "/static/media/sn-signup.4ddc5df91ead18ed9072.png",
     "static/media/reflect-home.png": "/static/media/reflect-home.bc6cd8108e9f772cbe34.png",
+    "static/media/sn-view.png": "/static/media/sn-view.3a1a168b37731837cc75.png",
     "static/media/pet-ask.png": "/static/media/pet-ask.79c357d88e0a356b0522.png",
     "static/media/Reflect-editdeleteentry.png": "/static/media/Reflect-editdeleteentry.10139a59086b16975f4c.png",
     "static/media/Reflect-createentry.png": "/static/media/Reflect-createentry.cad4590b3366b299127d.png",
     "static/media/touristrmock.png": "/static/media/touristrmock.d1ebe9c9a3ec845d91dc.png",
+    "static/media/sn-watch.png": "/static/media/sn-watch.21987e4d1456b944844d.png",
+    "static/media/sn-search.png": "/static/media/sn-search.c75fd1e246b91e4ce25d.png",
     "static/media/pet-data.png": "/static/media/pet-data.0e26e0ed25f1b3550370.png",
+    "static/media/sneakxmock.png": "/static/media/sneakxmock.dc79c88a5ce3b6d9e8d6.png",
     "static/media/reflectmock.png": "/static/media/reflectmock.4e8e943654676248b86d.png",
     "static/media/petclinicmock.png": "/static/media/petclinicmock.c41a1c5553c63769db5e.png",
     "index.html": "/index.html",
-    "main.56426e17.css.map": "/static/css/main.56426e17.css.map",
-    "main.807fefab.js.map": "/static/js/main.807fefab.js.map"
+    "main.1494f765.css.map": "/static/css/main.1494f765.css.map",
+    "main.d8d5beb9.js.map": "/static/js/main.d8d5beb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.56426e17.css",
-    "static/js/main.807fefab.js"
+    "static/css/main.1494f765.css",
+    "static/js/main.d8d5beb9.js"
   ]
 }
