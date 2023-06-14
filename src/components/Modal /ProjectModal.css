@@ -7,6 +7,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 
 }
 
@@ -52,7 +53,6 @@
 .project-gallery {
   overflow-x: scroll;
   overflow-y: hidden;
-  margin-top: 30px;
   padding: 4px;
   max-width: 100%;
   display: inline-block;
@@ -132,7 +132,7 @@
   .github a, .live-link a {
     font-size: 5px;
     border-radius: 50px;
-    padding: 8px;
+    padding: 7px;
     border: 1px solid rgba(110,7,243);
   }
 
