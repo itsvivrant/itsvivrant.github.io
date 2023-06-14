@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Modal } from '../../context/Modal';
 import './ProjectModal.css'
 
-function ProjectModal({images, title, githubURL, liveLink, features, futureGoals}) {
+function ProjectModal({images, title, githubURL, liveLink, features, futureGoals, reflections}) {
     const [showModal, setShowModal] = useState(false);
 
     const viewProject = () => {
@@ -15,7 +15,7 @@ function ProjectModal({images, title, githubURL, liveLink, features, futureGoals
         document.body.style.overflow = 'scroll';
     }
 
-
+    console.log(reflections)
 
     return (
        <div>
@@ -58,7 +58,7 @@ function ProjectModal({images, title, githubURL, liveLink, features, futureGoals
                             })}
                         </div>
                         <div className='description-column'>
-                            {futureGoals ? <h4>Future Goals</h4> : null}
+                            {futureGoals.length > 0 ? <h4>Future Goals</h4> : ""}
                             {futureGoals?.map(goal => {
                                 return (
                                     <div key={goal} className='overviewdescription-container'>
@@ -68,6 +68,13 @@ function ProjectModal({images, title, githubURL, liveLink, features, futureGoals
                             })}
                         </div>
                     </div>
+                    <div className ='overview-description2'>
+                        {reflections ? <h4>Reflections</h4> : null}
+                        <div className='overviewdescription-container'>
+                            <p>{reflections}</p>
+                        </div>
+                    </div>
+
                 </div>
 
             </Modal>

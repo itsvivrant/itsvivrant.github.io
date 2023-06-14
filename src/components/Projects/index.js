@@ -66,6 +66,10 @@ function Projects() {
                                     "Search functionality for users to search keywords as well as dates",
                                     "Bookmark functionality for users to save entries"
                                 ]}
+                                reflections="This project introduced me to powerful tools such as the useState() and the useEffect() react hook. I used useEffect to seamlessly render data in the CreateEntry component and EditEntry component without
+                                page refresh.
+                                I also learned useState as a tool to create interactive features and styles without writing class. Overall a very fun and challenging project that
+                                helped me learn much more about the ReactJS framework and data rendering. I also enjoyed making Reflect aesthetically pleasing :)"
                             />
                         </div>
                         <p className='summary'>A journaling fullstack application created through a personal experience with positive psychology research, the Science of Wellbeing,
@@ -108,6 +112,7 @@ function Projects() {
                                     "Implement favorites",
                                     "Add tags"
                                 ]}
+                                reflections=""
                             />
 
                         </div>
@@ -148,6 +153,7 @@ function Projects() {
                                     "Splash page",
                                     "Search functionality"
                                 ]}
+                                reflections=""
 
                             />
                         </div>
@@ -192,6 +198,7 @@ function Projects() {
                                 futureGoals={[
 
                                 ]}
+                                reflections=""
 
                             />
                         </div>
