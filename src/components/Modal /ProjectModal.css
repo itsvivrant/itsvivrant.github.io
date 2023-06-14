@@ -42,8 +42,7 @@
 .exit-modal-btn{
   color:rgba(110,7,243);
   font-weight: 600;
-  height: 8px;
-  padding: 10px;
+  font-size: 20px;
 }
 
 .exit-modal-btn:hover {
@@ -94,11 +93,6 @@
   padding: 0;
 }
 
-.slideshow-images img {
-  /* border-radius: 15px; */
-  height: 28em;
-  width:auto;
-}
 
 
 @media (max-width: 760px) {
@@ -156,6 +150,14 @@
   .slideshow-images {
     width: 36em;
     height: 20em;
+  }
+
+  .overview-description h4{
+    font-size: 20px;
+  }
+
+  .feature-container {
+    font-size: 15px;
   }
 }
 
